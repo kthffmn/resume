@@ -1,0 +1,92 @@
+% LaTeX resume using res.cls
+
+\documentstyle[line,margin,hyperref]{res}
+% Use \documentstyle[line,margin,newcent]{res} to get New Century
+% Schoolbook Postscript font 
+% Use \documentstyle[line,margin]{res} to get default (Computer Modern) font 
+%\renewcommand{\namefont}{}
+
+\begin{document}
+
+\name{{\LARGE \textit{Katie Hoffman}}}
+% \address used twice to have two lines of address
+%\address{90 Norfolk Street \#2, Cambridge, MA 02139}
+\address{\begin{tabular}{lcr}Brooklyn, NY&720.232.7274&\href{mailto:ktahoffman@gmail.com}{ktahoffman@gmail.com}\end{tabular}}
+ 
+\begin{resume}
+
+\section{Jobs}
+
+{\bf aParently}\hfill August 2015 - Present \\
+\textit{Full Stack Web Developer}\\
+Building interactive communication and calendar Rails app\\
+for parents and schools. 
+
+{\bf Flatiron School}\hfill April 2014 - July 2015 \\
+\textit{Senior Instructor}\\
+Developed test-driven Ruby and JavaScript curriculum\\
+and led lessons and code reviews.
+
+{\bf Beta NYC}\hfill March 2014 - April 2014 \\
+\textit{Extern Developer}\\
+Built an API for storing and querying open government \\
+projects, and used it to create an interactive timeline.
+
+{\bf Brooklyn Free School}\hfill Aug. 2013 - Nov. 2013 \\
+\textit{After School Teacher}\\
+Created and implemented lesson plans to encourage \\
+literacy and math skills.
+
+{\bf Mountain Friends Camp}\hfill June - Aug. 2013 \\
+\textit{Camp Counselor}\\
+Developed and co-­executed the Counselor ­in \\
+­Training curriculum.
+
+\section{Schools}
+
+{\bf Flatiron School} \hfill April 2013 \\
+New York Web Development Fellow
+
+{\bf Columbia University} \hfill May 2011 \\	
+ \textit{Barnard College}\\
+B.A. Psychology, Minor in Biology\\
+Graduated with Distinction
+
+\section{Projects}
+
+\begin{tabular*}{\textwidth}{@{\extracolsep{\fill} } llr}
+\href{https://kthffmn.github.io/two-dots/}{{\bf Two Dots}} &Simple JS implementation of the popular app &May 2015\\
+\href{https://kthffmn.github.io/aviator/}{{\bf Aviator}} & Up and down key plane game &May 2015\\
+\href{https://kthffmn.github.io/sphearical/}{{\bf Sphearical}}&Map of most streamed songs on Spotify&May 2014\\
+\href{https://kthffmn.github.io/whac-a-mole/}{{\bf Whac-A-Mole}}&jQuery mimic of the 70's arcade game &Nov. 2014\\
+\href{https://tic-tac-toe-minimax.herokuapp.com/}{{\bf Tic-Tac-Toe}}&Minimax algorithm on Sinatra &July 2014
+\end{tabular*}
+
+\section{Publications}
+
+\href{http://kthffmn.github.io/blog/2016/02/08/html-bouncing-ball-using-nested-marquees/}{{\textit{Marquee Element}}} (Feb. 2016) \href{https://kthffmn.github.io}{{kthffmn.github.io}}
+
+Howlett, N., Hoffman, K., et. al. \href{https://bmcgenomics.biomedcentral.com/articles/10.1186/1471-2164-13-211}{{\textit{Identification of chemosensory receptor genes in Manduca sexta and knockdown by RNA interference}}}. BMC Genomics, May 2012.
+ 
+\section{Technologies}
+
+%\textit{Selected Languages and Technologies:}\\
+%\begin{tabular}{l}
+Ruby (RSpec), Rails (Capybara), JavaScript (Jasmine), jQuery, HTML, CSS, SQL, Git,
+\LaTeX, Markdown, SPSS
+
+\section{Interests}
+
+Improv, sketch, stand-up, comedic acting
+
+%\end{tabular}\\\\
+%\textit{Selected coursework:}\\
+%\begin{tabular}{lll}
+%Computability&Completeness&Algebraic topology\\
+%Nonlinear dynamics&Distributed systems&Machine learning\\
+%Artificial intelligence&Software engineering&Natural language processing\\
+%Bayesian learning&Microcontrollers&Complex analysis
+%\end{tabular}
+
+\end{resume}
+\end{document}
